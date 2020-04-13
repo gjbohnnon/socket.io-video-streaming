@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <img id="image">
+        <h3>Hopefully there's video above ... :)</h3>
+        <script src="socket/socket.js"></script>
+        <script>
+            const socketio = io.connect('http://localhost:8080');
+            
+            socketio.on('image', (image) => {
+                const liveVideo = document.getElementById('image');
+                liveVideo.src=`data:image/jpeg;base64,${image}`;
+            })
+        </script>
+    </body>
+</html>

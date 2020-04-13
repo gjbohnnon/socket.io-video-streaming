@@ -1,0 +1,28 @@
+{
+  "name": "websocket_stream",
+  "version": "1.0.1",
+  "description": "exploring streaming live video via websocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjbohnnon/socket.io-video-streaming.git"
+  },
+  "keywords": [
+    "socker.io",
+    "video"
+  ],
+  "author": "Garrett Bohannon",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1",
+    "socket.io": "2.3.0",
+    "opencv4nodejs": "5.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/gjbohnnon/socket.io-video-streaming/issues"
+  },
+  "homepage": "https://github.com/gjbohnnon/socket.io-video-streaming#readme"
+}
